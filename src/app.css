@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --almostblack: #1d1d1d;
+  --darkgrey: #1d1d1d;
+  --darkfont: #291b25;
+  --darkpurp: #291b25;
+  --blue: #56c8ea;
+  --body-bg: #000;
+}
+
+body {
+  background-color: #000;
+}
+
+.home-grid-item {
+  background: var(--blue);
+}
